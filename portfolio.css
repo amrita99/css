@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>myportfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="profile">
+            <div class="medium">
+                <div class="coloumn">
+                    <h1 class="text-center">AMRITA MS</h1>
+                    <h2 class="text-center">Novice developer</h2>
+                    
+                    <img src="img/image.jpeg" >
+                
+                </div>
+            </div>
+        </div>
+    </div>
+    <h3>About</h3>
+    <p>
+        Iam an Electronics and Communication Engineering graduate from College of Engineering Kottarakkara.
+        I have a cgpa of 6.5 .I completed my plustwo in the year 2017 from SNVHSS Anad with a percentage of 87.8 and secured 9A+ and 1B in 10th class 
+        from GGHSS Nedumangad.I am very much interested in coding.I secured a certificate form coursea by completing "Python for everybody".Also I have been studying frontend development form coursera.
+        I does basic programming in Java,C,Python,Html.
+
+    </p>
+    <p>My last year project was based on Elecric Watt Hour Meter.We designed a new device called "Rupeeya Meter"that measure the cost of total electricity consumed.We used two sensors an a WiFi module for the design of Rupeeya Meter and used Blynk application to see the live caliberations of the calculations.Embedded C is used for programming.</p>
+    <p>I am a hardworker,selfmotivated person and adaptable.I am very enthusiastic person and likes to learn new things.</p>
+</body>
+</html>
+
+
+
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    background-color: firebrick;
+    
+    justify-content: center;
+}
+.container{
+    width: 80vw;
+    /*background-color: cadetblue;*/
+    max-width: 120px;
+    min-width: 375px;
+    
+}
+.profile{
+    display: flex;
+    width: 300%;
+    
+    flex-wrap: wrap;
+    margin-top: 150px;
+    justify-content: center;
+    color: lavenderblush;
+   
+    
+    
+}
+h1{
+    width: 100%;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: lavenderblush;
+    
+    
+}
+img{ 
+    width: 250px; 
+    
+    border-width:5px;  
+    border-color:white;
+    padding:1px;  
+    margin: 30px;
+    height: 300px;
+    border-style: solid;
+    border-radius: 50%;
+    }  
+h1,
+.profile h2{
+    width: 100%;
+    text-align: center;
+}
+h2{
+    text-transform: uppercase;
+    font-size: 20px;
+    color: lavenderblush;
+ 
+}
+h3{
+    text-transform: uppercase;
+    font-size: 25px;
+    color: lavenderblush;
+ text-align: start;
+}
+p{
+    color: lavenderblush;
+}
